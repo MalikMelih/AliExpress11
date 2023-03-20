@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a
+{
+	color: #08c;
+}
+
+body
+{
+	font-family: Arial;
+	margin: 0px;
+}
+
+#body
+{
+	width: 990px;
+	margin: auto;
+}
+
+#navbar
+{
+	width: 100%;
+	height: 53px;
+	padding: 15px 0 5px 0;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #fff;
+}
+	#logo-bar
+	{
+		width: 100%;
+		height: 53px;
+	}
+		#logo
+		{
+			height: 34px;
+			width: 208px;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-image: url(../img/login/navbar/logo.gif)
+		}
+		#logo-text
+		{
+			font-size: 12px;
+			color: #999;
+			font-weight: 400;
+		}
+#data
+{
+	width: 100%;
+	height: 450px;
+	padding: 25px 0 25px 0;
+	background-color: #fbfbfb;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(../img/login/data/banner-3.24cff00d.png);	/* Banner 1 */
+	/*background-image: url(../img/login/data/banner-2.9db93b48.png);*/	/* Banner 2 */
+	/*background-image: url(../img/login/data/banner-1.bb9edba7.png);*/	/* Banner 3 */
+}
+	#data-label
+	{
+		float: left;
+	}
+	#data-label-2
+	{
+		float: left;
+	    margin-top: 25px;
+	}
+		#data-title
+		{
+			color: #666;
+			font-size: 24px;
+			padding-top: 1px;
+			font-weight: bolder;
+		}
+		#data-text
+		{
+			color: #666;
+			font-size: 12px;
+			margin-top: 14px;
+			margin-bottom: -8px;
+		}
+#login
+{
+	float: right;
+	width: 360px;
+	padding: 0 1px;
+	margin: 25px 80px 0 80px;
+	border: 1px solid #c1cee0;
+	background-color: #fff;
+}
+	#l-bar-1
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #4d4d4d;
+		min-height: 200px;
+		margin:  20px 20px 0;
+		padding-top: 28px;
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-image: url(../img/login/data/TB1VHK4KFXXXXbPXFXXwxCdHXXX-47-47.png);
+	}
+		#text-bar
+		{
+			float: left;
+			font-size: 12px;
+			font-weight: lighter;
+			width: 307px;
+			color: #999;
+			padding: 6px 6px 5px 6px;
+			border: 1px solid #ccc;
+		}
+		#tb-label
+		{
+			float: left;
+			margin-bottom: 5px;
+		}
+		#tbl-fp
+		{
+			float: right;
+			font-weight: lighter;
+		}
+		#tbl-rg
+		{
+			float: right;
+			font-weight: lighter;
+			margin-top: 20px;
+		}
+		#lb-items
+		{
+			width: 100%;
+			height: 61px;
+		}
+		#lb-buton
+		{
+			color: #fff;
+			width: 320px;
+			height: 24px;
+			font-size: 14px;
+			padding-top: 4px;
+			font-family: Microsoft YaHei,Hiragino Sans GB,\5b8b\4f53;
+			margin-top: 12px;
+			text-align: center;
+			border: 1px solid #e87b0e;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/login/data/lb-buton.gif);
+		}
+	#l-bar-2
+	{
+		overflow: auto;
+		color: #4D4D4D;
+		font-size: 12px;
+		padding-top: 8px;
+		margin: 6px 20px 20px;
+		border-top: 1px dashed #ccc;
+	}
+		#lw-text
+		{
+			float: left;
+			margin-top: 2px;
+		}
+		#ggl-icon
+		{
+			float: left;
+			width: 16px;
+			height: 16px;
+			margin: 0 4px -3px 8px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/login/data/ggl-icon.gif);
+		}
+		#fb-icon
+		{
+			float: left;
+			width: 16px;
+			height: 16px;
+			margin-left: 5px;
+			margin-bottom: -3px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/login/data/fb-icon.gif);
+		}
+#footer
+{
+	padding: 10px 0 10px 0;
+	text-align: center;
+	border-top: 2px solid #999;
+	background-color: #f8f8f8;
+}
+#footer-items
+{
+	margin: auto;
+	overflow: auto;
+	text-align: center;
+	max-width: 1150px;
+}
+#footer-item
+{
+	font-size: 12px;
+	color: #999;
+	float: left;
+	margin: 0 3px;
+	padding: 3px 0 3px 0;
+}
+	#fi-ilk
+	{
+		font-size: 12px;
+	    color: #999;
+	    padding: 3px 0 3px 6px;
+	    float: left;
+	    margin: 0 3px;
+	}
+	#fi-son
+	{
+		font-size: 12px;
+	    color: #999;
+	    padding: 3px 0 3px 265px;
+	    float: left;
+	    margin: 0 3px;
+	}
+#f-space
+{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	padding: 3px 0;
+}
+#copyright
+{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	margin: 0 3px;
+}
+	#c-text
+	{
+		float: left;
+		font-family: verdana;
+		font-size: 12px;
+		color: #999;
+		margin: 0 3px;
+		padding: 3px 0 3px 0;
+	}
+
+

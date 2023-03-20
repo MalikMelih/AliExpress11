@@ -1,0 +1,1815 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a
+{
+	color: #4A90E2;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #e62e04;
+}
+
+body
+{
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Open Sans','Arial','Helvetica,sans-serif,SimSun';
+}
+
+#body
+{
+	margin: auto;
+	width: 1200px;
+	overflow: auto;
+	min-width: 1200px;
+}
+
+#ortala
+{
+    width: 100%;
+    /* overflow: auto; */
+	max-width: 1170px;
+    height: 120px;
+	padding: 0 15px;
+    margin: 10px 0 20px 0;
+}
+
+#space-10px
+{
+	float: left;
+	height: 10px;
+	width: 100%;
+}
+
+#space-20px
+{
+	float: left;
+	height: 20px;
+	width: 100%;
+}
+
+/* TopBar Başlangıcı */
+
+#banner
+{
+	margin: auto;
+	width: 100%;
+	height: 80px;
+	min-width: 1200px;
+	background-position: center center;
+	background-image: url(../img/banner/HTB1AGLVXyrxK1RkHFCc763QCVXam.png);
+}
+
+/* Değişen Banner 1 *//*
+#banner
+{
+	margin: auto;
+	width: 100%;
+	height: 80px;
+	min-width: 1200px;
+	background-position: center center;
+	background-image: url(../img/banner/2.png);
+}
+*//* Değişen Banner 1 */
+/* Değişen Banner 2 *//*
+#banner
+{
+	margin: auto;
+	width: 100%;
+	height: 80px;
+	min-width: 1200px;
+	background-position: center center;
+	background-image: url(https://ae01.alicdn.com/kf/HTB1JTGdXsrrK1RjSspa763REXXaA.png);
+}
+*//* Değişen Banner 2 */
+#topbar
+{
+	width: 100%;
+	height: 36px;
+	margin: auto;
+	font-size: 12px;
+	min-width: 1200px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e9e9e9;
+}
+	#topbar-govde
+	{
+		margin: auto;
+		width: 1200px;
+		overflow:auto;
+	}
+		#language-buton
+		{
+			color: #999;
+			float: right;
+			height: 36px;
+			overflow:auto;
+			padding: 0 15px;
+			border-right: 1px solid #e9e9e9;
+		}
+		#lb-son
+		{
+			color: #999;
+			float: right;
+			height: 36px;
+			overflow:auto;
+			padding: 0 0 0 15px;
+		}
+		#db-yazi
+		{
+			float: left;
+			color: #999;
+			margin-top: 11px;
+		}
+		#dbb-arrow
+		{
+			float: left;
+			margin: 4px -10px 0 -2px;
+			height: 28px;
+			width: 28px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/topbar/bottom-arrow.png);
+		}
+		#db-flag
+		{
+			float: left;
+			width: 30px;
+			height: 21px;
+			margin: 9px 0 0 -2px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/topbar/flag_turkey.png);
+		}
+			#dbf-yazi
+			{
+				float: left;
+				color: #999;
+				margin: 11px 0 0 5px;
+			}
+		#cep
+		{
+			overflow: auto;
+			margin-left: -6px;
+			padding-left: 22px;
+			padding-bottom: 5px;
+			background-repeat: no-repeat;
+			background-position: left 4px;
+			background-image: url(../img/topbar/phone.png);
+		}
+
+/* TopBar Bitişi */
+
+/* NavBar Başlangıcı */
+
+#navbar
+{
+	width: 100%;
+	min-width: 1200px;
+	background-color: white;
+	border-bottom: 1px solid #e9e9e9;
+}
+	/*#navbar-govde
+	{
+		margin: auto;
+		width: 1200px;
+		overflow: auto;
+	}*/
+		#logo-bar-new
+		{
+			float: left;
+			width: 240px;
+			text-align: center;
+		}
+			#logo
+			{
+				height: 104px;
+				background-repeat:no-repeat;
+				background-position:left center;
+				background-image: url(../img/navbar/logo11.gif);
+			}
+/* Değişen Logo 2 *//*
+			#logo
+			{
+				height: 104px;
+				background-repeat:no-repeat;
+				background-position:left center;
+				background-image: url(../img/navbar/logo2.gif);
+			}
+*//* Değişen Logo 2 */
+/* Geçici Süre İle Devre Dışı *//*
+		#logo-bar
+		{
+			float: left;
+			width: 240px;
+			text-align: center;
+			padding: 14px 0 0 0;
+		}
+			#logo
+			{
+				height: 40px;
+				background-repeat:no-repeat;
+				background-position:center center;
+				background-image: url(../img/navbar/logo.png);
+			}
+			#slogan
+			{
+				color: #999;
+				width: 240px;
+				height: 15px;
+				margin-top: 3px;
+				font-size: 11px;
+				line-height: 12px;
+			}
+*//* Geçici Süre İle Devre Dışı */
+		#ara
+		{
+			float: left;
+			width: 529px;
+		}
+			#ara-body
+			{
+				float: left;
+				width: 529px;
+				height: 25px;
+				padding-top: 13px;
+				margin: 22px 0 0 0;
+				border: 1px solid #cbcbcb;
+				border-radius: 5px 0 0 5px;
+			}
+					#ara-katog
+					{
+						float: right;
+						width: 137px;
+						height: 22px;
+						margin-top: -7px;
+						padding-top: 7px;
+						border-radius: 3px 0 0 3px;
+						border-left: 1px solid #eee;
+					}
+			#hot
+			{
+				float: left;
+				height: 16px;
+				margin-top: 9px;
+			}
+				#hot-text:hover
+				{
+					color: #e62e04;
+				}
+				#hot-text
+				{
+					color: #666;
+					float: left;
+					padding: 0 10px;
+					font-size: 12px;
+					border-left: 1px solid #E9E9E9;
+					border-right: 1px solid #E9E9E9;
+				}
+					#ht-ilk
+					{
+						color: #666;
+						float: left;
+						padding-right: 10px;
+						font-size: 12px;
+						border-right: 1px solid #E9E9E9;
+					}
+						#ht-ilk:hover
+						{
+							color: #e62e04;
+						}
+					#ht-son
+					{
+						color: #666;
+						float: left;
+						padding-left: 10px;
+						font-size: 12px;
+						border-left: 1px solid #E9E9E9;
+					}
+						#ht-son:hover
+						{
+							color: #e62e04;
+						}
+			#ara-buton
+			{
+				float: left;
+				width: 48px;
+				height: 38px;
+				margin: 22px 0 0 0;
+				border: 1px solid red;
+				background-color: #e62e04;
+				border-radius: 0 3px 3px 0;
+				background-repeat: no-repeat;
+				background-position: center center;		
+				background-image: url(../img/navbar/search.png);
+			}
+					#yazi
+					{
+						float: left;
+						color: #666;
+						padding-left: 15px;
+						font-family: arial;
+						text-align: center;
+					}
+			#nav-buton
+			{
+				float: right;
+				color: #333;
+				height: 80px;
+				font-size: 13px;
+				padding-left: 15px;
+			}
+				#sepet
+				{
+					float: left;
+					color: #333;
+					overflow: auto;
+					margin-top: 27px;
+					text-align: right;
+					padding: 0 0 0 39px;
+					background-position: left;
+					background-repeat: no-repeat;
+					background-image: url(../img/navbar/cart.png);
+				}
+					#sepet:hover
+					{
+						color: #e62e04;
+					}
+					#s-sayi
+					{
+						width: 25px;
+						color: #fff;
+						padding: 0.4px;
+						border-radius: 8px;
+						text-align: center;
+						background-color: #e62e04;
+					}
+					#s-text
+					{
+						margin-top: 1px;
+					}
+				#favori
+				{
+					float: left;
+					height: 65px;
+					margin-left: 10px;
+				}
+					#favori:hover
+					{
+						color: #e62e04;
+					}
+					#f-center
+					{
+						color: #333;
+						margin: 2px 0 0 5px;
+					}
+					#f-icon
+					{
+						margin-top: 21px;
+						padding: 5px 0 25px 44px;
+						background-repeat: no-repeat;
+						background-position: 13px 10px;
+						background-image: url(../img/navbar/favorite.png);
+					}
+				#kullanici
+				{
+					float: left;
+					height: 70px;
+				}
+					#u-center
+					{
+						padding: 18px 0 0 7px;
+					}
+					#u-yazi:hover
+					{
+						color: #e62e04;
+					}
+					#bold:hover
+					{
+						color: #e62e04;
+					}
+					#bold
+					{
+						float: left;
+						color: #333;
+						font-weight: bold;
+						padding:0 7px 0 7px;
+						border-right: 1px solid #E9E9E9;
+					}
+					#u-yazi
+					{
+						float: left;
+						color: #333;
+						padding-left: 7px;
+					}
+					#u-icon
+					{
+						border-bottom: none;
+						padding: 25px 10px 6px 45px;
+						background-repeat: no-repeat;
+						border: 1px solid transparent;
+						background-position: 13px 27px;
+						background-image: url(../img/navbar/user.png);
+					}
+
+/* NavBar Bitişi */
+
+/* Tanıtım Başlangıcı */
+
+#tanitim
+{
+	width: 100%;
+	min-width: 1200px;
+	background-color: #f6ede1;
+}
+	#kategoriler
+	{
+		float: left;
+		width: 240px;
+		background-color: #fff;
+	}
+		#k-top
+		{
+			height: 49px;
+			background-color: #f9f3ef;
+		}
+			#k-top-sol
+			{
+				float: left;
+				color: #333;
+				font-size: 15px;
+				font-weight: 700;
+				padding-top: 16px;
+				text-align: center;
+				width: 120px;
+			}
+			#k-top-sag
+			{
+				float: left;
+				color: #FF0036;
+				font-weight: bold;
+				font-size: 16px;
+				background-color: #fff;
+				text-align: center;
+				height: 33px;
+				padding: 16px 3px 0 3px;
+				width: 114px;
+			}
+				#k-top-sag:hover
+				{
+					color: #e62e04;
+				}
+		#k-body
+		{
+			width: 240px;
+		}
+			#k-list
+			{
+				color: #333;
+				font-size: 12px;
+				padding: 6.5px 0px 6.5px 35px;
+			}
+			#k-list:hover
+			{
+				color: #e62e04;
+			}
+				#k-list-ilk
+				{
+					height: 28px;
+					padding-top: 5px;
+				}
+				#k-list-son
+				{
+					height: 28px;
+					padding-bottom: 5px;
+				}
+				#k-1
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/ta.png);
+				}
+				#k-2
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/eu.png);
+				}
+				#k-3
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/eb.png); 
+				}
+				#k-4
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/eky.png);
+				}
+				#k-5
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/kg.png);
+				}
+				#k-6
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/gs.png);
+				}
+				#k-7
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/dm.png);
+				}
+				#k-8
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/ob.png);
+				}
+				#k-9
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/bo.png);
+				}
+				#k-10
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/oh.png);
+				}
+				#k-11
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/ms.png);
+				}
+				#k-12
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/ac.png);
+				}
+				#k-13
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/ea.png);
+				}
+				#k-14
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/ic.png);
+				}
+				#k-15
+				{
+					background-repeat: no-repeat;
+					background-position: 7px center;
+					background-image: url(../img/katagori/bc.png);
+				}
+				#k-16
+				{
+					background-repeat: no-repeat;
+					background-position: 6px center;
+					background-image: url(../img/katagori/eg.png);
+				}
+				#k-17
+				{
+					background-repeat: no-repeat;
+					background-position: 6px -1px;
+					background-image: url(../img/katagori/g.png);
+				}
+		#firsat
+		{
+			float: left;
+			width: 944px;
+			height: 49px;
+			font-size: 14px;
+			padding-left: 16px;
+			background-color: #fcf9f7;
+		}
+			#f-buton
+			{
+				float: left;
+				color: #000;
+				margin-right: 24px;
+			}
+			#f-buton:hover
+			{
+				color: #e62e04;
+			}
+				#fb-text
+				{
+					float: right;
+					font-size: 16px;
+					margin-top: 16px;
+					max-height: 16px;
+				}
+				#f-bildir
+				{
+					width: 30px;
+					height: 14px;
+					float: right;
+					padding: 3px 4px 0;
+					margin: 0 -3px 0 -30px;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/navbar/new.png);
+				}
+		#slider
+		{
+			float: left;
+			width: 720px;
+			height: 288px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-image: url(../img/slider/slider.png);
+		}
+		#user
+		{
+			float: right;
+			width: 208px;
+			height: 455px;
+			background-color: #fff;
+			padding: 16px 16px 0 16px;
+		}
+			#u-login
+			{
+				width: 208px;
+				overflow: auto;
+				margin-bottom: 16px;
+			}
+				#u-pic
+				{
+					width: 48px;
+					height: 48px;
+					margin: 0 auto 8px;
+					border-radius: 24px;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/new-user/user.png);
+				}
+				#u-text
+				{
+					color: #000;
+					margin: auto;
+					height: 12px;
+					padding: 5px 0;
+					font-size: 14px;
+					text-align: center;
+				}
+				#u-buttons
+				{
+					float: left;
+					width: 208px;
+					height: 36px;
+					font-size: 13px;
+					margin: 8px 0 0;
+				}
+					#u-j-but
+					{
+						width: 100px;
+						margin-right: 4px;
+						float: left;
+					}
+					#u-s-but
+					{
+						width: 100px;
+						margin-left: 4px;
+						float: left;
+					}
+						#u-j-text
+						{
+							color: #fff;
+							width: 100%;
+							height: 14px;
+							padding: 11px 0;
+							border-radius: 4px;
+							text-align: center;
+							background-color: #FF4747;
+						}
+						#u-s-text
+						{
+							color: #666;
+							width: 100%;
+							height: 14px;
+							padding: 11px 0;
+							border-radius: 4px;
+							text-align: center;
+							background-color: #F9F9F9;
+						}
+			#new-user
+			{
+				float: right;
+				width: 208px;
+				height: 265px;
+				margin-top: 22px;
+				border-radius: 12px;
+				background-color: #E62E04;
+			}
+				#nu-header
+				{
+					height: 35.8px;
+					margin: -20px 0 10px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/new-user/HTB1Nly4qRmWBuNkSndV5jcsApXak.gif);
+				}
+				#nu-body
+				{
+					
+				}
+					#nu-b1
+					{
+						height: 66px;
+						background-size: contain;
+						background-repeat: no-repeat;
+						background-position: center;
+						background-image: url(../img/new-user/HTB1CGkWCCBYBeNjy0Fe762nmFXaq.png);
+					}
+						#nu-cupon
+						{
+							float: right;
+							width: 100px;
+							height: 48px;
+							font-size: 100%;
+							font-weight: 900;
+							padding: 9px 15px;
+							text-align: center;
+						}
+					#nu-product
+					{
+						width: 184px;
+						overflow: auto;
+						border-radius: 8px;
+						margin: 10px 9px 0px;
+						padding: 15px 3px 10px;
+						background-color: #fff;
+					}
+						#nu-cargo
+						{
+							height: 29.5px;
+							background-size: contain;
+							background-position: center;
+							background-repeat: no-repeat;
+							background-image: url(../img/new-user/cargo.png);
+						}
+						#nu-img1
+						{
+							float: left;
+							width: 84px;
+							height: 85px;
+							margin: 12px 4px 0px;
+							background-size: contain;
+							background-position: center;
+							background-repeat: no-repeat;
+							background-image: url(../img/new-user/HTB1aH1iXvfsK1RjSszgq6yXzpXaQ.jpg_100x100.jpg);
+						}
+						#nu-img2
+						{
+							float: left;
+							width: 84px;
+							height: 85px;
+							margin: 12px 4px 0px;
+							background-size: contain;
+							background-position: center;
+							background-repeat: no-repeat;
+							background-image: url(../img/discount/HTB1z6kdXcrrK1Rjy1zeq6xalFXaX.jpg);
+						}
+		#oner
+		{
+			float: left;
+			width: 720px;
+			height: 183px;
+			background-color: #fff;
+		}
+			#o-buton
+			{
+				float: left;
+				width: 180px;
+				height: 183px;
+			}
+				#ob-text
+				{
+					color: #000;
+					width: 100%;
+					height: 30px;
+					padding: 10px 0 0 10px;
+				}
+					#obt-icon
+					{
+						float: left;
+						margin-right: 6px;
+					}
+						#obt-font
+						{
+							float: left;
+							font-weight: 600;
+						}
+						#obti-col-1
+						{
+							width: 8px;
+							height: 8px;
+							float: left;
+							border-radius: 50%;
+							margin: 3px 6px 0 0;
+							background-color: #84C3CC;
+						}
+						#obti-col-2
+						{
+							width: 8px;
+							height: 8px;
+							float: left;
+							border-radius: 50%;
+							margin: 3px 6px 0 0;
+							background-color: #FEDA45;
+						}
+						#obti-col-3
+						{
+							width: 8px;
+							height: 8px;
+							float: left;
+							border-radius: 50%;
+							margin: 3px 6px 0 0;
+							background-color: #8E9DDE;
+						}
+						#obti-col-4
+						{
+							width: 8px;
+							height: 8px;
+							float: left;
+							border-radius: 50%;
+							margin: 3px 6px 0 0;
+							background-color: #92DE8E;
+						}
+				#ob-img
+				{
+					height: 75%;
+				}
+					#obi-1
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/2-5M-Handmade-Macaron-Colored-Ball-Decoration-With-Balls-Baby-Kids-Tent-Room-Decor-Accessory-Wall.jpg);
+					}
+					#obi-2
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/Coolbaby-2018-newest-HDMI-AV-Video-Game-Console-64-Bit-Support-4K-Output-Retro-600-Classic.jpg);
+					}
+					#obi-3
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/New-Arrival-Sand-blasting-Solar-Lawn-Light-Waterproof-LED-Outdoor-Garden-Light-Landscape-Yard-Lawn-Path.jpg);
+					}
+					#obi-4
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/Brand-Summer-Men-Socks-Sneakers-Beathable-Mesh-Male-Casual-Shoes-Lace-up-Sock-Shoes-Loafers-Boys.jpg);
+					}
+			#ob-disc
+			{
+				width: 64px;
+				font-size: 14px;
+				font-weight: 600;
+				padding: 8px 8px;
+				text-align: center;
+				border-radius: 6px;
+				margin: -55px 0 0 22px;
+				color: rgba(255,255,255,1);
+				background-color: rgba(255,71,71,1);
+			}
+	#subbanner
+	{
+		margin: auto;
+		width: 1200px;
+		height: 280px;
+		padding-top: 5px;
+		margin-bottom: 20px;
+		background-image: url(../img/banner/sb-img2.png);
+	}
+		#sb-img
+		{
+			width: 104px;
+			height: 104px;
+			border-radius: 8px;
+			margin: 60px 0 0 222px;
+			background-size: contain;
+			border: 8px solid #EE3D00;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-image: url(../img/banner/HTB19OmhXizxK1Rjy1zkq6yHrVXa8.jpg);
+		}
+		#subbanner-11
+		{
+			width: 1200px;
+			height: 246px;
+			margin-bottom: 20px;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-image: url(../img/banner/sb1.gif);
+		}
+			#sb-11-mini
+			{
+				overflow: auto;
+				float: left;
+				width: 100%;
+			}
+				.sbm-img
+				{
+					float: left;
+					width: 580px;
+					height: 120px;
+					border-radius: 12px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+				#sbmi-1
+				{
+					background-image: url(../img/banner/HTB1OU47XsfrK1RkSnb4760HRFXaD.png);
+				}
+				#sbmi-2
+				{
+					margin-left: 8px;
+					background-image: url(../img/banner/HTB1IWCeXzzuK1RjSspp760z0XXaJ.png);
+				}
+				#sbmi-3
+				{
+					background-image: url(../img/banner/HTB1VHZRXznuK1RkSmFP763uzFXat.png);
+				}
+				#sbmi-4
+				{
+					margin-left: 8px;
+					background-image: url(../img/banner/HTB16tIMXsnrK1RkHFrd760CoFXap.png);
+				}
+	#pre
+	{
+		width: 100%;
+		/*padding: 0 0 25px 0px;*/
+		min-width: 1200px;
+		background-color: #F9D03F;
+	}
+		#pre-body-11
+		{
+			overflow: auto;
+			padding: 0 10px;
+		}
+		#pb-text
+		{
+			color: #fff;
+			font-size: 24px;
+			text-align: left;
+			font-weight: bolder;
+		}
+		#pb-prd
+		{
+			max-width: 166px;
+			
+			float:left;
+			overflow: auto;
+			padding: 10px 10px;
+			border-radius: 12px;
+			background-color: #fff;
+			margin: 10px 5px 0px 5px;
+		}
+			#pbp-img
+			{
+				margin: auto;
+			}
+				#pbpi-1
+				{
+					width: 170px;
+					height: 170px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/discount/HTB1McxrXsfrK1RkSmLyq6xGApXam.jpg);
+				}
+				#pbpi-2
+				{
+					width: 170px;
+					height: 170px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/discount/IF-ME-Vintage-Leaf-Feather-Multilayer-Leather-Bracelet-Men-Fashion-Braided-Handmade-Star-Rope-Wrap-Bracelets.jpg);
+				}
+				#pbpi-3
+				{
+					width: 170px;
+					height: 170px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/discount/HTB1Id7VhVzqK1RjSZFvq6AB7VXaD.jpg);
+				}
+				#pbpi-4
+				{
+					width: 170px;
+					height: 170px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/discount/Baseus-Metal-Bass-Sound-Music-Earphone-for-Phone-In-Ear-Earphone-Fone-De-Ouvido-for-iPhone.jpg);
+				}
+				#pbpi-5
+				{
+					width: 170px;
+					height: 170px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/discount/Original-Xiaomi-Mi-Notebook-Air-13-3-Windows-10-Intel-Core-i7-8550U-Quad-Core-Laptop.jpg);
+				}
+				#pbpi-6
+				{
+					width: 170px;
+					height: 170px;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-image: url(../img/discount/HTB1HAk5XcfrK1RjSszcq6xGGFXal.jpg);
+				}
+			#pbp-text
+			{
+				margin-top: 6px;
+			}
+				#pbt-ind
+				{
+					width: 64px;
+					color: #fff;
+					margin: auto;
+					height: 15px;
+					font-size: 12.5px;
+					padding: 0 10px;
+					font-style: italic;
+					text-align: center;
+					font-weight: bolder;
+					border-radius: 50px;
+					background-color: #FF4747;
+					font-family: OpenSans-ExtraboldItalic;
+				}
+				#pbt-text
+				{
+					color: #000;
+					height: 18px;
+					margin-top: 3px;
+					font-size: 13px;
+					font-style: italic;
+					text-align: center;
+					font-weight: bolder;
+					font-family: OpenSans-ExtraboldItalic;
+				}
+			#pbt-label
+			{
+				color: #fff;
+				font-size: 16px;
+				font-weight: 600;
+				max-width: 190px;
+				text-align: center;
+				border-radius: 0px 0px 13px 13px;
+			}
+			#pbt-label-11
+			{
+				text-align: center;
+			    height: 20px;
+			    color: #000;
+			    padding-top: 18px;
+			    font-size: 16px;
+			    font-weight: bold;
+			}
+				#bg-blue
+				{
+					max-width: 190px;
+					padding: 20px 0px;
+					background-color: #00A9FF;
+					margin: 6px -10px -10px -10px;
+				}
+				#bg-pink
+				{
+					max-width: 190px;
+					padding: 20px 0px;
+					background-color: #FF69B5;
+					margin: 6px -10px -10px -10px;
+				}
+				#bg-orange
+				{
+					max-width: 190px;
+					padding: 20px 0px;
+					background-color: #FF7400;
+					margin: 6px -10px -10px -10px;
+				}
+				#bg-purple
+				{
+					max-width: 190px;
+					padding: 20px 0px;
+					background-color: #7C7EFB;
+					margin: 6px -10px -10px -10px;
+				}
+				#bg-cherry
+				{
+					max-width: 190px;
+					padding: 20px 0px;
+					background-color: #FF5560;
+					margin: 6px -10px -10px -10px;
+				}
+				#bg-red
+				{
+					max-width: 190px;
+					padding: 20px 0px;
+					background-color: #EA0000;
+					margin: 6px -10px -10px -10px;
+				}
+	/* Tanıtım Sonu */
+
+	/* İndirimliler Başlangıcı */
+
+#discount
+{
+	width: 100%;
+	margin-top: 48px;
+	min-width: 1200px;
+}
+	#disc-flash
+	{
+		overflow: auto;
+		margin-top: 48px;
+	}
+		#df-title-bar
+		{
+			color: #999;
+			font-size: 16px;
+			margin: 0 0 16px 8px;
+		}
+			#df-tb-more
+			{
+				color: #999;
+				float: right;
+				height: 24px;
+				font-size: 100%;
+				margin-top: 10px;
+			}
+			#df-tb-more:hover
+			{
+				color: #e62e04;
+			}
+			#df-tb-title
+			{
+				color: #000;
+				font-size: 28px;
+				font-weight: 900;
+			}
+			#df-tb-detail
+			{
+				color: #999;
+				font-size: 17px;
+			}
+		#disc-products
+		{
+			float: left;
+			min-height: 324px;
+		}
+			#disc-product
+			{
+				float: left;
+				width: 224px;
+				height: 284px;
+				padding: 0 8px 8px;
+			}
+				#dp-img
+				{
+					width: 220px;
+					height: 220px;
+					border-radius: 12px;
+				}
+					#dpi-1
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/HTB1z6kdXcrrK1Rjy1zeq6xalFXaX.jpg);
+					}
+					#dpi-2
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/HTB1z6kdXcrrK1Rjy1zeq6xalFXaX.jpg);
+					}
+					#dpi-3
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/HTB1z6kdXcrrK1Rjy1zeq6xalFXaX.jpg);
+					}
+					#dpi-4
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/HTB1z6kdXcrrK1Rjy1zeq6xalFXaX.jpg);
+					}
+					#dpi-5
+					{
+						width: 100%;
+						height: 100%;
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-image: url(../img/discount/HTB1z6kdXcrrK1Rjy1zeq6xalFXaX.jpg);
+					}
+				#dp-price
+				{
+					color: #999;
+					font-size: 16px;
+					margin-top: 16px;
+					
+				}
+					#dpp-new
+					{
+						color: #000;
+						font-size: 20px;
+						font-weight: 900;
+						font-style: normal;
+					}
+					#dpp-old
+					{
+						margin-top: 5px;
+						text-decoration: line-through;
+					}
+
+	/* İndirimliler Sonu */
+
+	/*  Önerilen Markalar Başlangıcı */
+
+#top-brands
+{
+	margin: 40px 0px;
+	min-width: 1200px;
+}
+	#tb-title-bar
+	{
+		width: 99%;
+		margin-left: 8px;
+		margin-bottom: 16px;
+	}
+			#tb-tb-title
+			{
+				color: #000;
+				font-size: 28px;
+				font-weight: 900;
+			}
+			#tb-tb-detail
+			{
+				color: #999;
+				font-size: 17px;
+			}
+	#tb-div
+	{
+		float: left;
+		width: 384px;
+		padding: 0 8px;
+	}
+		#tbd-img
+		{
+			width: 100%;
+			height: 156px;
+		}
+			#tbdi-1
+			{
+				width: 100%;
+				height: 100%;
+				border-radius: 14px;
+				background-size: contain;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-image: url(../img/topbrands/HTB1wPGxXELrK1Rjy1zbq6AenFXaW.jpg);
+			}
+			#tbdi-2
+			{
+				width: 100%;
+				height: 100%;
+				border-radius: 14px;
+				background-size: contain;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-image: url(../img/topbrands/HTB18KWhXsfrK1Rjy0Fm760hEXXan.png);
+			}
+			#tbdi-3
+			{
+				width: 100%;
+				height: 100%;
+				border-radius: 14px;
+				background-size: contain;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-image: url(../img/topbrands/HTB1vzrNXcrrK1Rjy1ze760alFXaj.png);
+			}
+		#tbd-labels
+		{
+			margin-top: 16px;
+		}
+			#tbdl-title
+			{
+				color: #000;
+				font-size: 20px;
+				font-weight: 600;
+			}
+			#tbdl-text
+			{
+				color: #999;
+				font-size: 16px;
+				margin-top: 5px;
+			}
+
+	/*  Önerilen Markalar Sonu */
+
+	/* Örnek Ürünler Başlangıcı */
+
+#maybe
+{
+	width: 100%;
+	min-width: 1200px;
+	background-color: #FCF9F7;
+	padding: 48px 0 12px 0;
+}
+	#m-title-bar
+	{
+		width: 99%;
+		margin-left: 8px;
+		margin-bottom: 16px;
+	}
+			#m-tb-title
+			{
+				color: #000;
+				font-size: 28px;
+				font-weight: 900;
+			}
+			#m-tb-detail
+			{
+				color: #999;
+				font-size: 17px;
+			}
+	#maybes
+	{
+		width: 100%;
+		overflow: auto;
+	}
+		#m-br
+		{
+			border-radius: 12px;
+			overflow: auto;
+		}
+		#m-label
+		{
+			float: left;
+			padding-top: 17px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		#m-items
+		{
+			float: left;
+			border-radius: 12px;
+			overflow: auto;
+			padding: 0px 5px;
+			margin-bottom: 36px;
+			max-width: 32.5%;
+		}
+			#m-item-tl
+			{
+				width: 192px;
+				height: 192px;
+				float: left;
+				border-bottom: 4px solid white;
+				background-color:transparent;
+			}
+			#m-item-tr
+			{
+				width: 192px;
+				height: 192px;
+				float: left;
+				border-bottom: 4px solid white;
+				border-left: 4px solid white;
+				background-color:transparent;
+			}
+			#m-item-bl
+			{
+				width: 192px;
+				height: 192px;
+				float: left;
+				background-color:transparent;
+			}
+			#m-item-br
+			{
+				width: 192px;
+				height: 192px;
+				float: left;
+				border-left: 4px solid white;
+				background-color:transparent;
+			}
+			.m-img
+			{
+				border-radius: 12px;
+				width: 388px;
+				height: 388px;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+			#mi-1
+			{
+				background-image: url(../img/maybe/HTB1e9lsXMaTBuNjSszf760gfpXac.png_350x350.png);
+			}
+			#mi-2
+			{
+				background-image: url(../img/maybe/HTB1qVd3XHuWBuNjSszg7628jVXa4.png_350x350.png);
+			}
+				.mi-img
+				{
+					width: 100%;
+					height: 100%;
+					background-size: contain;
+					background-repeat: no-repeat;
+				}
+				#mi-img-1
+				{
+					background-image: url(../img/maybe/product/HTB11DtqkxPI8KJjSspfq6ACFXXaR.jpg_350x350.jpg);
+				}
+				#mi-img-2
+				{
+					background-image: url(../img/maybe/product/HTB1ERoacwjN8KJjSZFgq6zjbVXav.jpg);
+				}
+				#mi-img-3
+				{
+					background-image: url(../img/maybe/product/HTB1JdQ1QpXXXXX0XXXXq6xXFXXXk.jpg);
+				}
+				#mi-img-4
+				{
+					background-image: url(../img/maybe/product/HTB1OLhBdEUIL1JjSZFrq6z3xFXaR.jpg);
+				}
+				#mi-img-5
+				{
+					background-image: url(../img/maybe/product/HTB1vngzOpXXXXcqXVXXq6xXFXXX6.jpg_350x350.jpg);
+				}
+
+	/* Örnek Ürünler Başlangıcı */
+
+	/* Güvenlik Bildirimleri Başlangıcı */
+
+#security
+{
+	width: 100%;
+	min-width: 1200px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+	#s-item
+	{
+		float: left;
+		width: 16.5%;
+		min-height: 178px;
+		padding: 40px 0 10px;
+		border-right: 1px solid #eee;
+	}
+	#si-label
+	{
+		color: #333;
+		height: 15px;
+		font-size: 18px;
+		font-weight: 400;
+		padding-top: 5px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	#si-text
+	{
+		color: #999;
+		text-align: center;
+		padding: 10px 15px 0 15px;
+	}
+		#si-first
+		{
+			float: left;
+			width: 16.5%;
+			min-height: 178px;
+			padding: 40px 0 10px;
+			border-left: 1px solid #eee;
+			border-right: 1px solid #eee;
+		}
+			#si-icon-1
+			{
+				height: 53px;
+				margin: 0 auto 15px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/security/value.png);
+			}
+			#si-icon-2
+			{
+				height: 53px;
+				margin: 0 auto 15px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/security/delivery.png);
+			}
+			#si-icon-3
+			{
+				height: 53px;
+				margin: 0 auto 15px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/security/payment.png);
+			}
+			#si-icon-4
+			{
+				height: 53px;
+				margin: 0 auto 15px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/security/safe.png);
+			}
+			#si-icon-5
+			{
+				height: 53px;
+				margin: 0 auto 15px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/security/help.png);
+			}
+			#si-icon-6
+			{
+				height: 53px;
+				margin: 0 auto 15px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/security/platform.png);
+			}
+
+	/* Güvenlik Bildirimleri Sonu */
+
+	/* Yardımcı Footer Başlangıcı */
+
+#helper-footer
+{
+	width: 100%;
+	margin: 0px;
+	min-width: 1200px;
+	padding: 20px 0 10px;
+	background-color: #fff;
+}
+	#hf-label
+	{
+		color: #333;
+		font-size: 16px;
+		font-weight: 200;
+		margin-bottom: 10px;
+	}
+	#hf-but
+	{
+		color: #999;
+		height: 19px;
+		font-size: 12px;
+		padding-top: 6px;
+	}
+	#hf-search
+	{
+		float: left;
+		color: #999;
+		width: 233px;
+		height: 22px;
+		font-weight: 400;
+		font-family: arial;
+		padding: 8px 0 0 5px;
+		border: 1px solid #ccc;
+	}
+		#hfs-button
+		{
+			float: left;
+			height: 24px;
+			color: #fff;
+			padding-top: 8px;
+			min-width: 100px;
+			font-size: 13px;
+			text-align: center;
+			background-color: #e62e04;
+		}
+		#hfs-desc
+		{
+			float: left;
+			color: #999;
+			font-size: 12px;
+			margin-top: 10px;
+		}
+	#hf-group-1
+	{
+		float: left;
+		width: 40%;
+		
+	}
+		#hfg1-top
+		{
+			float: left;
+		}
+		#hfg1-bot
+		{
+			float: left;
+			padding-top: 18px;
+		}
+			#hfb-label
+			{
+				color: #333;
+				font-size: 18px;
+				margin-bottom: 7px;
+			}
+			#fb-ico
+			{
+				float: left;
+				width: 32px;
+				height: 32px;
+				margin-right: 3px;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/footer/fb.png);
+			}
+			#tw-ico
+			{
+				float: left;
+				width: 32px;
+				height: 32px;
+				margin-right: 3px;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/footer/tw.png);
+			}
+			#ins-ico
+			{
+				float: left;
+				width: 32px;
+				height: 32px;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/footer/ins.png);
+			}
+	#hf-group-2
+	{
+		float: left;
+		width: 20%;
+		
+	}
+	#hf-group-3
+	{
+		float: left;
+		width: 20%;
+		
+	}
+	#hf-group-4
+	{
+		float: left;
+		width: 20%;
+		
+	}
+
+	/* Yardımcı Footer Sonu */
+
+	/* Footer Başlangıcı */
+
+#footer
+{
+	margin: 0px;
+	margin-top: 30px;
+	padding-top: 30px;
+	min-width: 1200px;
+	background-color: #e8e8e8;
+}
+	#fbl-group-1
+	{
+		float: left;
+		min-height: 94px;
+	}
+	#fbl-group-2
+	{
+		float: left;
+		min-height: 69px;
+	}
+	#fbl-group-3
+	{
+		float: left;
+		padding: 10px 0 40px;
+	}
+		#dl-gp
+		{
+			float: left;
+			width: 95px;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 600;
+			margin-right: 10px;
+			border-radius: 3px;
+			background-color: #a4c739;
+			padding: 7px 4px 5px 28px;
+			background-repeat: no-repeat;
+			background-position: 4px center;
+			background-image: url(../img/footer/android.png);
+		}
+		#dl-as
+		{
+			float: left;
+			width: 81.5px;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 600;
+			margin-right: 10px;
+			border-radius: 3px;
+			background-color: #8c8c8c;
+			padding: 7px 4px 5px 28px;
+			background-repeat: no-repeat;
+			background-position: 6px center;
+			background-image: url(../img/footer/apple.png);
+		}
+		#f-labels
+		{
+			width: 50%;
+			float: left;
+		}
+			#fl-label
+			{
+				color: #333;
+				padding: 5px 0;
+				font-size: 16px;
+				margin-bottom: 5px;
+			}
+			#fl-text
+			{
+				float: left;
+				color: #999;
+				font-size: 13px;
+				margin-left: 3px;
+				padding: 1.5px 0;
+			}
+			#fl-text:hover
+			{
+				color: #f90;
+			}
+#footer-copyright
+{
+	color: #666;
+	margin: 0px;
+	height: 25px;
+	font-size: 13px;
+	padding-top: 10px;
+	min-width: 1200px;
+	background-color: #333;
+}
+	#fc-text
+	{
+		float: left;
+		color: #666;
+		font-size: 13px;
+		margin-left: 3px;
+	}
+
+	/* Footer Sonu */
